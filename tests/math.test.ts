@@ -6,6 +6,8 @@ describe("add", () => {
     });
 
     test("throws when a < b", () => {
-        expect(() => add(2, 3)).toThrow();
+        expect(() => 
+            add(2, 3)
+    ).toThrow();
     });
 });
